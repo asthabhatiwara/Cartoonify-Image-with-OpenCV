@@ -1,12 +1,12 @@
 # Cartooning an Image using OpenCV – Python
 Implementation of Digital Image Smoothing Filters, Edge Detection Algorithms in order to create a cartoon effect.
 
-# Cartonify.py
+## Cartonify.py
 This file import all required required modules.
   1.easygui: Imported to open a file box. It will allow us to select any file from our system.
   2.Matplotlib: For visualization and plotting of images.
   
-# Cartoonizer.py
+## Cartoonizer.py
 This file contains a Cartoonizer class that applies a cartoon effect to an Image.
   ## Detecting and emphasizing edges
     a)Convert the original color image into grayscale
