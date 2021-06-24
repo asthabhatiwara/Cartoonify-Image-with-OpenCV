@@ -8,7 +8,7 @@ This file import all required required modules.
   
 ## Cartoonizer.py
 This file contains a Cartoonizer class that applies a cartoon effect to an Image.
-  ## Detecting and emphasizing edges
+  ## Detecting and Emphasizing Edges
      a)Convert the original color image into grayscale
      b)Using adaptive thresholding to detect and emphasize the edges in an edge mask-
         For detecting edges here we use adaptive thresholdig that will give us more satisfying results in compared to simple thresholding. 
