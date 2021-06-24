@@ -19,9 +19,9 @@ This file contains a Cartoonizer class that applies a cartoon effect to an Image
    3. For better illustration, we apply a median blur to reduce image noise
 
 ### Image Filtering
-   1. Implementation of bilateral filter for edge preserving and noise reduction-
-        + Similarly to the Gaussian, bilateral filter replaces each pixel value with a weighted average of nearby pixel values. 
-        + A bilateral filter takes into account the variation of pixel intensities in order to preserve edges.
+   Implemented bilateral filter for edge preserving and noise reduction-
+      + Similarly to the Gaussian, bilateral filter replaces each pixel value with a weighted average of nearby pixel values. 
+      + A bilateral filter takes into account the variation of pixel intensities in order to preserve edges.
 
  ### Creating a Cartoon effect
    Masking edged image with our colored image by using bitwise_and operation.
