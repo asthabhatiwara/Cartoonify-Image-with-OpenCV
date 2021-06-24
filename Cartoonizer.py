@@ -37,8 +37,7 @@ class cartoonizer:
     plt.imshow(ReSized3, cmap='gray')
 
 
-    #retrieving the edges for cartoon effect by using adaptive thresholding algorithm 
-    #of type binary and ADAPTIVE_THRESH_MEAN_C for threshold method
+    #retrieving the edges for cartoon effect by using adaptive thresholding algorithm of type binary and ADAPTIVE_THRESH_MEAN_C for threshold method
     mask_Edges = cv2.adaptiveThreshold(smoothGrayScale, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 9, 9)  # mask for cartoon effect
     ReSized4 = cv2.resize(getEdge, (1200, 740))
     plt.imshow(ReSized4, cmap='gray')
