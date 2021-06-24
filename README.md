@@ -19,10 +19,10 @@ This file contains a Cartoonizer class that applies a cartoon effect to an Image
     
   ## Image Filtering
      a)Implementation of bilateral filter for edge preserving and noise reduction-
-     Similarly to the Gaussian, bilateral filter replaces each pixel value with a weighted average of nearby pixel values. 
-     However, the difference between these two filters is that a bilateral filter takes into account the variation of pixel intensities in order to preserve edges. 
-     The idea is that two nearby pixels that occupy nearby spatial locations also must have some similarity in the intensity levels.
+      Similarly to the Gaussian, bilateral filter replaces each pixel value with a weighted average of nearby pixel values. 
+      However, the difference between these two filters is that a bilateral filter takes into account the variation of pixel intensities in order to preserve edges. 
+      The idea is that two nearby pixels that occupy nearby spatial locations also must have some similarity in the intensity levels.
   
  ## Creating a Cartoon effect
-    a)Masking edged image with our colored image by using bitwise_and operation.
+   Masking edged image with our colored image by using bitwise_and operation.
  
