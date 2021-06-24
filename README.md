@@ -3,9 +3,6 @@
 Implementation of Digital Image Smoothing Filters, Edge Detection Algorithms in order to create a cartoon effect.
 
 ## Cartonify.py
-This file imports all required required modules.
-  1.easygui: Imported to open a file box. It will allow us to select any file from our system.
-  2.Matplotlib: For visualization and plotting of images.
 This file imports all required required modules.<br/>
   1. easygui: Imported to open a file box. It will allow us to select any file from our system.<br/>
   2. Matplotlib: For visualization and plotting of images.
