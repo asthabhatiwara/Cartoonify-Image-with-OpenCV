@@ -11,12 +11,13 @@ import easygui  # open the filebox and return the file name
 def upload():
       Image=easygui.fileopenbox()
       cartoonify(Image)
+     
 
-
-class cartoonizer:
 #Cartoonizer effect  
 #A class that applies a cartoon effect to an image.
-
+class cartoonizer:
+      
+      
 upload()
 cartoon_img= Cartoonizer() 
 res = cartoon_img.cartoonify(Image) 
