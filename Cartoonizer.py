@@ -3,10 +3,11 @@
 
 class cartoonizer:
 
-    def nothing(self):
+    
+  def nothing(self):
        pass
 
-    def cartoonify(self,Image):
+  def cartoonify(self,Image):
 
       # reading images
       original_img= cv2.imread(Image)
@@ -56,3 +57,5 @@ class cartoonizer:
     cartoonImage = cv2.bitwise_and(colorImage, colorImage, mask=mask_Edges)
     ReSized6 = cv2.resize(cartoonImage, (960, 540))
     plt.imshow(ReSized6, cmap='gray')
+    
+    return cartoonImage
